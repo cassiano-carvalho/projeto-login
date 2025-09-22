@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="estilos/celular.css">
     <link rel="stylesheet" href="estilos/tablet.css">
     <link rel="stylesheet" href="estilos/desktop.css">
-    <link rel="stylesheet" href="estilos/celular.css">
 
 </head>
 <body>
@@ -21,22 +20,35 @@
             <img id="fachada" src="./imagens/imagem.jpg" alt="Fachada de prédio">
         </picture>
 
-        <h1>login</h1>
+        <h1>log in</h1>
         
-        <form action="#" method="post">
-            <p class="username">
-                <label for="iuser"><span class="material-symbols-outlined">account_circle</span></label>
-                <input type="text" name="user" id="iuser" placeholder="type your username">
-            </p>
-            <p class="password">
-                <label for="ipass"><span class="material-symbols-outlined">key_vertical</span></label>
-                <input type="password" name="pass" id="ipass" placeholder="type your password" required >
-            </p>
-            <p>
-                <button type="submit">entrar</button>
-            </p>
-        </form>
-    </main>
+        <section>
+            <form action="#" method="post">
+                <p>
+                    <label for="iuser"><span class="material-symbols-outlined">account_circle</span></label>
+                    <input type="text" name="user" id="iuser" placeholder="type your username">
+                </p>
+                <p>
+                    <label for="ipass"><span class="material-symbols-outlined">key_vertical</span></label>
+                    <input type="password" name="pass" id="ipass" placeholder="type your password" required >
+                </p>
+                <p>
+                    <button type="submit"><a href="#">submit</a></button>
+                </p>
+            </form>
+        </section>
 
+        <p class="opcionais"><a href="#">forgot my password</a></p>
+        <p class="opcionais"><a href="#">sign in</a></p>
+
+        <hr>
+
+        <p></p>
+
+        <section id="social-section">
+            <p><a class="social-media" href="#"><img src="imagens/social-media/google.svg" alt=""></a></p>
+            <p><a class="social-media" href=""><img src="imagens/social-media/facebook.svg" alt="#"></a></p>
+        </section>
+    </main>
 </body>
 </html>
